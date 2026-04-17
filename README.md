@@ -42,7 +42,9 @@
 4. `cd themes`
 5. `git clone https://github.com/ann9cht/catppuccin.git`
 6. `cd ../..`
-7. Add `include themes/catppuccin/macchiato.conf` to `refind.conf`
+7. `nano refind.conf`
+8. Add `include themes/catppuccin/macchiato.conf`
+9. `cp /boot/EFI/refind/themes/catppuccin/assets/macchiato/icons/os_cachyos.png /boot/vmlinuz-linux-cachyos.png`
 
 ## 💝 Thanks to
 
