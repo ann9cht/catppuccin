@@ -36,11 +36,13 @@
 
 ## Usage
 
-1. Locate your rEFInd installation folder (e.g. /boot/EFI/refind)
-2. Create a folder called `themes` inside it, if it doesn't already exist
-3. Clone this repo into the `themes` folder:  
-  `git clone https://github.com/catppuccin/refind.git catppuccin`
-4. Add `include themes/catppuccin/flavour.conf` to `refind.conf` (replace flavour with latte/frappe/macchiato/mocha)
+1. `sudo -i`
+2. `cd /boot/EFI/refind`
+3. `mkdir themes`
+4. `cd themes`
+5. `git clone https://github.com/ann9cht/catppuccin.git`
+6. `cd ../..`
+7. Add `include themes/catppuccin/macchiato.conf` to `refind.conf`
 
 ## 💝 Thanks to
 
